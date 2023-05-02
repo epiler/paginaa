@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville';
+    
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-image: url('https://wallpaperaccess.com/full/6999313.jpg');
+    /*background-image: url('https://i.pinimg.com/originals/0d/4a/d9/0d4ad92e15d6e6dafb0aed2fe71952a8.png');*/
+    background-size:cover;
+    height: 100vh;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li a{
+    margin: 0 20px;
+}
+
+header ul li a{
+    color: #ffffff;
+}
+
+.titulo {
+    text-align: left;
+    margin-top: 40vh;
+}
+
+h1{
+    font-size: 70px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+}
